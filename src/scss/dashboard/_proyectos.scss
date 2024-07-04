@@ -23,6 +23,7 @@
     .proyecto{
         background-color: lighten(v.$indigo, 5%);
         min-height: 12rem;
+
         display: flex;
         align-items: center;
         padding: 2rem;
@@ -35,6 +36,11 @@
 
         a{
             color: v.$blanco;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 }
